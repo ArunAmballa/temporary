@@ -18,4 +18,13 @@ public class EmployeeController {
     public String getAllEmployees(){
         return "Getting All Employees";
     }
+
+
+    @GetMapping(path = "/singleEmployee")
+    public String getEmployee(){
+        return "Getting a Single Employee";
+    }
 }
+
+
+
