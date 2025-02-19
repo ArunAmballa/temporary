@@ -12,4 +12,10 @@ public class EmployeeController {
     public String helloEmployee(){
         return "Hello Employee";
     }
+
+
+    @GetMapping(path = "/allEmployees")
+    public String getAllEmployees(){
+        return "Getting All Employees";
+    }
 }
